@@ -1,0 +1,21 @@
+body {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-04);
+  grid-template-areas:
+    "aside header"
+    "aside main";
+  grid-template-rows: 0.1fr 0.9fr;
+  grid-template-columns: 0.2fr 0.8fr;
+}
+
+main {
+  height: 100vh;
+  width: 100%;
+  grid-area: main;
+}
+
+aside {
+  grid-area: aside;
+}
