@@ -9,12 +9,7 @@ import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(
-      `${
-        process.env.MONGO_URL ??
-        'mongodb+srv://root:root@apicluster.ihvl0zu.mongodb.net/?retryWrites=true&w=majority'
-      } `,
-    ),
+    MongooseModule.forRoot(`${process.env.MONGO_URL}`),
     UsersModule,
     AuthModule,
   ],
