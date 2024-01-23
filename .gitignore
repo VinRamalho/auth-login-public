@@ -1,0 +1,6 @@
+
+# custom
+/back/package-lock.json
+/back/.env
+/back/*.env
+/back/dist
