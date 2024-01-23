@@ -2,4 +2,8 @@
 /dist
 /node_modules
 
+# custom
+package-lock.json
 .env
+*.env
+dist
